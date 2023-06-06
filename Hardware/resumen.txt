@@ -1,0 +1,3 @@
+CPU
+Procesador
+Memoria
