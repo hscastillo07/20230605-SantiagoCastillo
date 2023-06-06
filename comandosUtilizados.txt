@@ -1,0 +1,37 @@
+git remote add 20230605-SantiagoCastillo https://github.com/hscastillo07/20230605-SantiagoCastillo.git
+touch comandos.txt main.js index.html  
+git add .
+git commit -m "commit 01 de SantiagoCastillo"
+git push --set-upstream 20230605-SantiagoCastillo master
+git checkout -b feature01
+mkdir Terminal Hardware
+cd Terminal
+touch resumen.txt
+cd ..
+cd Hardware
+touch resumen.txt
+git add .
+git commit -m "commit 02 de SantiagoCastillo"
+git push 20230605-SantiagoCastillo feature01
+git branch feature02
+git checkout feature02
+git add .
+git commit -m "commit 03 de SantiagoCastillo"
+git push 20230605-SantiagoCastillo feature02
+cd ..
+cd Terminal
+git add .
+git commit -m "commit 04 de SantiagoCastillo"
+git push 20230605-SantiagoCastillo feature02
+cd ..
+git mv comandos.txt comandosUtilizados.txt
+
+
+
+
+
+
+
+
+
+
