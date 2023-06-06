@@ -1,0 +1,5 @@
+mkdir
+mv
+rm
+ls
+pwd
